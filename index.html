@@ -1,199 +1,363 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="css/global.css" />
     <title>LED Website</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- navbar -->
     <div class="container-fluid position-relative py-0">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light  px-5 py-3 ">
-            <a href="index.html" class="navbar-brand p-0">
-                <h1 class="m-0"><i class="fa fa-user-tie me-2"></i>LED</h1>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="fa fa-bars"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ms-auto py-0">
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="service.html" class="nav-item nav-link">Services</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blog</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                            <a href="detail.html" class="dropdown-item">Blog Detail</a>
-                        </div>
-                    </div>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="price.html" class="dropdown-item">Pricing Plan</a>
-                            <a href="feature.html" class="dropdown-item">Our features</a>
-                            <a href="team.html" class="dropdown-item">Team Members</a>
-                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                            <a href="quote.html" class="dropdown-item">Free Quote</a>
-                        </div>
-                    </div>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
-                </div>
-                <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal"
-                    data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
-                <a href="https://htmlcodex.com/startup-company-website-template"
-                    class="btn btn-primary py-2 px-4 ms-3">Download Pro Version</a>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light px-5 py-3">
+        <a href="index.html" class="navbar-brand p-0">
+          <h1 class="m-0"><i class="fa fa-user-tie me-2"></i>LED</h1>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto py-0">
+            <a href="index.html" class="nav-item nav-link active">Home</a>
+            <a href="about.html" class="nav-item nav-link">About</a>
+            <a href="service.html" class="nav-item nav-link">Services</a>
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                >Blog</a
+              >
+              <div class="dropdown-menu m-0">
+                <a href="blog.html" class="dropdown-item">Blog Grid</a>
+                <a href="detail.html" class="dropdown-item">Blog Detail</a>
+              </div>
             </div>
-        </nav>
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                >Pages</a
+              >
+              <div class="dropdown-menu m-0">
+                <a href="price.html" class="dropdown-item">Pricing Plan</a>
+                <a href="feature.html" class="dropdown-item">Our features</a>
+                <a href="team.html" class="dropdown-item">Team Members</a>
+                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                <a href="quote.html" class="dropdown-item">Free Quote</a>
+              </div>
+            </div>
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
+          </div>
+          <butaton
+            type="button"
+            class="btn text-primary ms-3"
+            data-bs-toggle="modal"
+            data-bs-target="#searchModal"
+            ><i class="fa fa-search"></i
+          ></butaton>
+          <a
+            href="https://htmlcodex.com/startup-company-website-template"
+            class="btn btn-primary py-2 px-4 ms-3"
+            >Download Pro Version</a
+          >
+        </div>
+      </nav>
     </div>
     <!-- banner -->
     <div class="banner">
-        <div class="overlay">
-            <h1>Welcome to Our Website</h1>
-            <p>Your journey to success starts here.</p>
-            <!-- <a href="#learn-more" class="btn">Learn More</a> -->
-        </div>
+      <div class="overlay">
+        <h1>Welcome to Our Website</h1>
+        <p>Your journey to success starts here.</p>
+        <!-- <a href="#learn-more" class="btn">Learn More</a> -->
+      </div>
     </div>
 
-    <footer class="text-center text-lg-start text-white" style="background-color: #1c2331">
-        <!-- Section: Social media -->
-        <section class="d-flex justify-content-between p-4" style="background-color: #6351ce">
-            <!-- Left -->
-            <div class="me-5">
-                <span>Get connected with us on social networks:</span>
-            </div>
-            <!-- Left -->
-
-            <!-- Right -->
-            <div>
-                <a href="" class="text-white me-4">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="" class="text-white me-4">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a href="" class="text-white me-4">
-                    <i class="fab fa-google"></i>
-                </a>
-                <a href="" class="text-white me-4">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="" class="text-white me-4">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="" class="text-white me-4">
-                    <i class="fab fa-github"></i>
-                </a>
-            </div>
-            <!-- Right -->
-        </section>
-        <!-- Section: Social media -->
-
-        <!-- Section: Links  -->
-        <section class="">
-            <div class="container text-center text-md-start mt-5">
-                <!-- Grid row -->
-                <div class="row mt-3">
-                    <!-- Grid column -->
-                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                        <!-- Content -->
-                        <h6 class="text-uppercase fw-bold">Company name</h6>
-                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
-                            style="width: 60px; background-color: #7c4dff; height: 2px" />
-                        <p>
-                            Here you can use rows and columns to organize your footer
-                            content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit.
-                        </p>
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                        <!-- Links -->
-                        <h6 class="text-uppercase fw-bold">Products</h6>
-                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
-                            style="width: 60px; background-color: #7c4dff; height: 2px" />
-                        <p>
-                            <a href="#!" class="text-white">MDBootstrap</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-white">MDWordPress</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-white">BrandFlow</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-white">Bootstrap Angular</a>
-                        </p>
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                        <!-- Links -->
-                        <h6 class="text-uppercase fw-bold">Useful links</h6>
-                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
-                            style="width: 60px; background-color: #7c4dff; height: 2px" />
-                        <p>
-                            <a href="#!" class="text-white">Your Account</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-white">Become an Affiliate</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-white">Shipping Rates</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-white">Help</a>
-                        </p>
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                        <!-- Links -->
-                        <h6 class="text-uppercase fw-bold">Contact</h6>
-                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
-                            style="width: 60px; background-color: #7c4dff; height: 2px" />
-                        <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
-                        <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
-                        <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-                        <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
-                    </div>
-                    <!-- Grid column -->
-                </div>
-                <!-- Grid row -->
-            </div>
-        </section>
-        <!-- Section: Links  -->
-
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-            © 2020 Copyright:
-            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    <!-- Features Section -->
+    <div class="container contaner-1290 pt-60">
+      <div class="features-part ps-rel">
+        <div class="features-header-part text-center">
+          <h3
+            class="cb-ff cb-fs-20 cb-fw-600 cb-color-black mb-30"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
+            Our Features
+          </h3>
+          <h2
+            class="cb-ff cb-fs-40 cb-fw-600 cb-color-black mb-30"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
+            Supercharge Your Business <br />
+            with Billboards
+          </h2>
         </div>
-        <!-- Copyright -->
+        <!-- features-billboard-add-part -->
+        <div class="features-billboard-add-part">
+          <div class="row">
+            <div class="col-12 col-lg-4 mb-5 mb-lg-0">
+              <div
+                class="features-billboard-card-body"
+                data-aos="fade-up"
+                data-aos-duration="2000"
+              >
+                <div class="features-billboard-card-image img-effect imghover">
+                  <figure>
+                    <img
+                      class="cb-br-10"
+                      src="Images/feature-Img1.png"
+                      alt="billboard1"
+                      data-aos="flip-left"
+                      data-aos-duration="2000"
+                    />
+                  </figure>
+                </div>
+                <div class="features-billboard-card-content mt-20">
+                  <h3
+                    class="cb-ff cb-fw-600 cb-fs-24 cb-color-black text-center"
+                    data-aos="fade-up"
+                  >
+                    Illuminate Your Business <br />
+                    with Billboard
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-5 mb-lg-0">
+              <div
+                class="features-billboard-card-body"
+                data-aos="fade-up"
+                data-aos-duration="2000"
+              >
+                <div class="features-billboard-card-image img-effect imghover">
+                  <figure>
+                    <img
+                      class="cb-br-10"
+                      src="Images/feature-Img2.png"
+                      alt="billboard2"
+                      data-aos="flip-down"
+                      data-aos-duration="2000"
+                    />
+                  </figure>
+                </div>
+                <div
+                  class="features-billboard-card-content mt-20"
+                  data-aos="fade-up"
+                >
+                  <h3
+                    class="cb-ff cb-fw-600 cb-fs-24 cb-color-black text-center"
+                    data-aos="fade-up"
+                  >
+                    Unleash the Power of <br />
+                    Advertising
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-5 mb-lg-0">
+              <div
+                class="features-billboard-card-body"
+                data-aos="fade-up"
+                data-aos-duration="2000"
+              >
+                <div class="features-billboard-card-image img-effect imghover">
+                  <figure>
+                    <img
+                      class="cb-br-10"
+                      src="Images/feature-Img3.png"
+                      alt="billboard3"
+                      data-aos="flip-right"
+                      data-aos-duration="2000"
+                    />
+                  </figure>
+                </div>
+                <div class="features-billboard-card-content mt-20">
+                  <h3
+                    class="cb-ff cb-fw-700 cb-fs-20 cb-color-black text-center mb-5"
+                  >
+                    Unlock the Potential of <br />
+                    Outdoor Marketing
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="fea-bg-img ps-abs">
+          <img src="Images/teers1.png" alt="teer" />
+        </div>
+        <div class="fea-star-img ps-abs">
+          <img src="Images/star.png" alt="star" />
+        </div> -->
+      </div>
+    </div>
+
+    <footer
+      class="text-center text-lg-start text-white"
+      style="background-color: #1c2331"
+    >
+      <!-- Section: Social media -->
+      <section
+        class="d-flex justify-content-between p-4"
+        style="background-color: #6351ce"
+      >
+        <!-- Left -->
+        <div class="me-5">
+          <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold">Company name</h6>
+              <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+              />
+              <p>
+                Here you can use rows and columns to organize your footer
+                content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Products</h6>
+              <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+              />
+              <p>
+                <a href="#!" class="text-white">MDBootstrap</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">MDWordPress</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">BrandFlow</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Bootstrap Angular</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Useful links</h6>
+              <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+              />
+              <p>
+                <a href="#!" class="text-white">Your Account</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Become an Affiliate</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Shipping Rates</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Help</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Contact</h6>
+              <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+              />
+              <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+              <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
+              <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+              <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2020 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/"
+          >MDBootstrap.com</a
+        >
+      </div>
+      <!-- Copyright -->
     </footer>
-
-
-
-
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/index.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
